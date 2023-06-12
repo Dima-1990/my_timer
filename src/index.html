@@ -1,13 +1,29 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <link rel="stylesheet" href="./main.css" />
+   
   </head>
   <body>
-    <h1>Привіт це мій таймер</h1>
+    <main>
+    <h1 class="js-user-name hiro-title">Привіт, хозяїн</h1>
+
+    <section class="global">
+    <span class="global-timer"> 00 : 00 : 00</span>
+
+  <div class="global-time-nav">
+    <button type="button" class="btn-start btn-style">Старт</button>
+    <button type="button" class="btn-reset btn-style">Скинути</button>
+  </div>
+    
+
+    </section>
+    </main>
+    
+
+    <script type="module" src="./index.js"></script>
   </body>
 </html>

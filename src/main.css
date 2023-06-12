@@ -1,0 +1,31 @@
+
+main{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.hiro-title{
+    margin-bottom: 30px;
+}
+
+
+.global-timer{
+    display: block;
+    font-size: 40px;
+
+    margin-bottom: 50px;
+}
+
+.btn-style{
+  padding: 10px 30px;
+  font-size: 18px;
+  background-color: rgb(221, 226, 226);
+
+  border: 1px;
+  border: solid;
+  border-radius: 20px;
+  border-color: rgb(179, 195, 179);
+}
+
+.btn-start{
+    margin-right: 30px;
+}
