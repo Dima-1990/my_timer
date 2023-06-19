@@ -1,2 +1,0 @@
-document.querySelector("h1"),document.querySelector(".btn-start"),document.querySelector(".btn-reset"),document.querySelector(".global-timer");({start(){const e=Date.now();setInterval((()=>{const t=function(e){const t=Math.floor(e%864e5/36e5),o=Math.floor(e%36e5/6e4),r=Math.floor(e%6e4/1e3);return{hours:t,mins:o,secs:r}}(Date.now()-e);console.log(t)}),1e3)}}).start();
-//# sourceMappingURL=index.8533d202.js.map
