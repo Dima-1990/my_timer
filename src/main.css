@@ -3,12 +3,24 @@ main{
     margin-top: 50px;
     margin-left: 50px;
 }
+
+h2{
+    font-size: x-large;
+    font-weight: 100;
+}
+
 .hiro-title{
     margin-bottom: 30px;
 }
 
+.global{
+    display: inline-block;
+}
+
+
 
 .global-timer{
+    text-align: center;
     display: block;
     font-size: 40px;
 
@@ -24,8 +36,24 @@ main{
   border: solid;
   border-radius: 20px;
   border-color: rgb(179, 195, 179);
+  cursor: pointer;
 }
+
+.btn-style:hover{
+
+   background-color: rgb(146, 168, 236); 
+   border: 1px;
+    border: solid;
+   border-color: rgb(146, 168, 236);
+}
+
 
 .btn-start{
     margin-right: 30px;
+}
+
+
+.time-list{
+    margin-top: 50px;
+    
 }
